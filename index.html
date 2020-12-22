@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="./style/glider.css">
+    <script src="https://kit.fontawesome.com/2a1a243df6.js" crossorigin="anonymous"></script>
+    <title>NETFLIX CLONE</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <div class="header-menu">
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Documetário</a>
+                    
+                </nav>
+                <div class="switch__container">
+                    <input id=""switch-shadow"" class="switch switch--shadow" type="checkbox" />
+                    <label for="switch-shadow">
+                        <span><i class="fas fa-sun"></i></span>
+                        <span><i class="fas fa-moon"></i></span>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-movie">
+            <div class="container">
+                <div class="movie-title">
+                    <h3>Vikings(2013)</h3>
+                </div>
+                <div class="movie-sinopsis">
+                    Ragnar Lothbrok, um jovem que se considera descendente de Odin, é um guerreiro, fazendeiro e chefe
+                    de família.
+                    Visionário e sonhando viver diversas aventuras, ele acredita que as riquezas sonhadas por seu povo
+                    encontram-se além do mar Báltico. Mas para conseguir conquistá-las ele precisa convencer Earl
+                    Haraldson,
+                    o líder de seu povo, a permitir que ele e seus guerreiros viagem em direção à Inglaterra.
+                </div>
+                <div class="movie-bottons">
+                    <button role="button" class="button">
+                        <i class="fas fa-play"></i>
+                        PLAY
+                    </button>
+                    <button role="button" class="button">
+                        <i class="fas fa-plus"></i>
+                        MY LIST
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-list">
+            <div class="container">
+                <h3>Em destaque</h3>
+                <div class="glider-contain">
+                    <div class="glider">
+                        <div><img src="./img/rei-leao.jpg" alt=""></div>
+                        <div><img src="./img/monstros-do-homen.jpg" alt=""></div>
+                        <div><img src="./img/outro-lado-da-lei.jpg" alt=""></div>
+                        <div><img src="./img/spell.jpg" alt=""></div>
+                        <div><img src="./img/crrods2.jpg" alt=""></div>
+                        <div><img src="./img/jiujitsu.jpg" alt=""></div>
+                        <div><img src="./img/m-maravilha.jpg" alt=""></div>
+                        <div><img src="./img/mulan.jpg" alt=""></div>
+                        <div><img src="./img/convencao-das-bruxas.jpg" alt=""></div>
+                    </div>
+                    <button aria-label="Previous" class="glider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button aria-label="Next" class="glider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/glider.js"></script>
+    <script src="./js/setup.js"></script>
+</body>
+
+</html>
